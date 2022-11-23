@@ -13,6 +13,8 @@
 		91C3C87E292D39CD002598F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C3C87C292D39CD002598F7 /* Main.storyboard */; };
 		91C3C880292D39D3002598F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C3C87F292D39D3002598F7 /* Assets.xcassets */; };
 		91C3C883292D39D3002598F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91C3C881292D39D3002598F7 /* LaunchScreen.storyboard */; };
+		91C3C88B292E9D94002598F7 /* FOAAS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3C88A292E9D94002598F7 /* FOAAS.swift */; };
+		91C3C88D292E9EA0002598F7 /* FOAAS Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91C3C88C292E9EA0002598F7 /* FOAAS Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		91C3C87F292D39D3002598F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91C3C882292D39D3002598F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		91C3C884292D39D3002598F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C3C88A292E9D94002598F7 /* FOAAS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FOAAS.swift; sourceTree = "<group>"; };
+		91C3C88C292E9EA0002598F7 /* FOAAS Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FOAAS Client.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				91C3C876292D39CD002598F7 /* AppDelegate.swift */,
 				91C3C878292D39CD002598F7 /* SceneDelegate.swift */,
 				91C3C87A292D39CD002598F7 /* ViewController.swift */,
+				91C3C88C292E9EA0002598F7 /* FOAAS Client.swift */,
+				91C3C88A292E9D94002598F7 /* FOAAS.swift */,
 				91C3C87C292D39CD002598F7 /* Main.storyboard */,
 				91C3C87F292D39D3002598F7 /* Assets.xcassets */,
 				91C3C881292D39D3002598F7 /* LaunchScreen.storyboard */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91C3C88B292E9D94002598F7 /* FOAAS.swift in Sources */,
+				91C3C88D292E9EA0002598F7 /* FOAAS Client.swift in Sources */,
 				91C3C87B292D39CD002598F7 /* ViewController.swift in Sources */,
 				91C3C877292D39CD002598F7 /* AppDelegate.swift in Sources */,
 				91C3C879292D39CD002598F7 /* SceneDelegate.swift in Sources */,

@@ -9,13 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
     // MARK: - Properties
+    
+    //"https://www.foaas.com/operations/"
 
     @IBOutlet weak var responseLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        guard let url = URL(string: "https://www.foaas.com/operations/") else { return }
+  
+    }
+
+    @IBAction func foButtonPressed(_ sender: Any) {
+        print("DEBUG: button pressed    ")
+        guard let url = URL(string: "https://www.foaas.com/operations") else { return }
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             
@@ -25,14 +31,13 @@ class ViewController: UIViewController {
             }
 
             let json = try! JSONSerialization.jsonObject(with: data!)
-            print(json)
- 
+            
+            DispatchQueue.main.async {
+                self.responseLabel.text = json as? String
+            }
+  
         }
         task.resume()
-    }
-
-    @IBAction func foButtonPressed(_ sender: Any) {
-        
     }
     
 }
